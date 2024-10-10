@@ -1,0 +1,39 @@
+.back{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(160deg, #b26ecf 30%, #97f8ed 70%);
+}
+.image{
+    margin-top: 10vh;
+    text-align: centre;
+   }
+   
+   
+   .message{
+    text-align: center;
+      margin-top: 5vh;
+      text-align: centre;
+      h1{
+          font-size: 2rem;
+          font-family: serif;
+       }
+       p{
+         color: #000000;
+         font-size: 25px;
+        }
+   }
+   
+   .goButton {
+    text-align: center;
+     
+      margin-top: 10vh;
+      
+      ion-button{
+          width: 85%;
+          height: 50px;
+          text-transform: none;
+          font-size: 1.6rem;
+         }
+   }
+   
+   

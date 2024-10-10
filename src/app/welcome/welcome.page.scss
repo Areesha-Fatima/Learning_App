@@ -1,0 +1,62 @@
+.back{
+  height: 110%;
+  width: 100%;
+  background: linear-gradient(160deg, #b26ecf 30%, #97f8ed 70%);
+}
+
+.heading {
+    margin-top:  10vh;
+    text-align: centre;
+    h1 {
+       font-size: 50px;
+       text-align: center;
+
+       font-family:serif
+    }
+    p {
+      color: #000000;
+      text-align: center;
+    }
+   }
+   .log {
+    text-align: centre;
+    margin-top: 45px;
+   }
+   .social-login {
+    text-align: center;
+    margin-top: 45px;
+    text-align: centre;
+    p {
+       color: #000000;
+    }
+    ion-button {
+     width: 40%;
+     height: 50px;
+     ion-icon { 
+       font-size: 1.6rem;
+       }
+   }
+    .twitter {
+      --background: #00acee;
+      margin-right: 20px;
+    }
+    .facebook{
+      --background:#4267b2;
+    }
+   }
+   
+   .email-login {
+    text-align: center;
+    margin-top: 45px;
+    text-align: centre;
+    p {
+       color: #838383;
+    }
+    
+    .signup {
+     width: 85%;
+     height: 50px;
+     text-transform: none; 
+       font-size: 1.6rem;
+       }
+   }

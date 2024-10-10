@@ -1,0 +1,132 @@
+.back{
+   height: 100%;
+   width: 100%;
+   background:linear-gradient(160deg, #b26ecf 30%, #97f8ed 70%);
+ }
+
+.heading {
+    margin-top:  10vh;
+    text-align: centre;
+    h1 {
+       font-size: 40px;
+       text-align: center;
+       font-family:serif
+    }
+    p {
+      color: #000000;
+      text-align: center;
+    }
+   }
+   .social-login {
+    text-align: center;
+    margin-top: 45px;
+    text-align: centre;
+    p {
+       color: #000000;
+    }
+    ion-button {
+        text-align: center;
+     width: 40%;
+     height: 50px;
+     ion-icon { 
+        text-align: center;
+       font-size: 1.6rem;
+       }
+   }
+    .twitter {
+      --background: #00acee;
+      margin-right: 20px;
+    }
+    .facebook{
+      --background:#4267b2;
+    }
+   }
+   .email-login {
+    text-align: center;
+    margin-top: 45px;
+    text-align: centre;
+    p {
+        text-align: center;
+       color: #000000;
+    }
+   
+   .formfield {
+    position:relative;
+    margin: auto;
+    padding:0px;
+    border: 0px;
+    font-size: 1em;
+    margin-bottom: 10px;
+   }
+   .formfield  >  input,
+   .formfield  >  label {
+     padding: 1.4em;
+     margin: 0.5em;
+     width: 87%;
+   }
+   
+   .formfield  >  input  {
+      border : 1px solid #000000;
+      outline: none;
+   }
+   
+   .formfield  >  label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-align: start;
+    color: #000000;
+    padding-left : 40px;
+   }
+   input:focus + label,
+   input:valid + label{
+       font-size: 1rem;
+       width: auto;
+       height: 1.3em;
+       padding: 0px 0.5em 0px 0.5em;
+       margin: 0px;
+       border : 1px solid #000000;
+       background: #fffefe;
+       transition: 0.2s ease-in-out;
+       top: 0em;
+       left: 2em;
+     }
+   }
+   .other-links {
+      margin-left: 7%;
+      display: flex;
+      justify-content: space-between;
+      .remember-me {
+          display:flex;
+          align-items: center;
+          p{
+               margin-left: 10px !important;
+            }
+   }
+   .forgot{
+        margin-right: 7%;
+    }
+   }
+   
+   .login-button {
+    text-align: center;
+    text-align: centre;
+    margin-top: 25px;
+   }
+
+    .login{
+        text-align: center;
+       width: 85%;
+       height: 50x;
+       text-transform: none;
+       font-size: 1.6rem;
+   }
+   
+    p{
+        text-align: center;
+       color: #000000;}
+
+       span{
+             color: #3880ff;
+    }
